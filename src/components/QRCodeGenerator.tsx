@@ -53,7 +53,7 @@ const QRCodeGenerator: React.FC = () => {
   };
 
   return (
-    <div className="grid grid-cols-2 items-stretch justify-stretch w-full h-4/5 gap-6 px-[20%] py-[5%]">
+    <div className="grid lg:grid-cols-2 items-stretch justify-stretch w-full h-4/5 gap-6 px-[20%] py-[5%]">
       <div className="flex flex-col items-center justify-start gap-6">
         <input
           type="text"
